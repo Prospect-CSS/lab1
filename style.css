@@ -1,0 +1,147 @@
+@font-face {
+    src: url(fonts/NunitoSans-Regular.ttf);
+    font-family: "Nunito Sans"
+}
+
+@font-face {
+    src: url(fonts/YesevaOne-Regular.ttf);
+    font-family: "Yeseva One";
+}
+
+html,
+body {
+    margin: auto;
+    padding: 0;
+    max-width: 1440px;
+    min-height: 790px;
+}
+
+
+/** header **/
+
+.header {
+    height: 83px;
+    background: #131313;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #E3B873;
+    font-family: Nunito Sans;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.header__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.header__links_tel {
+    font-family: Nunito Sans;
+    text-align: right;
+    text-decoration-line: underline;
+}
+
+.header__boton {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    padding: 13px 33px;
+    font-family: Nunito Sans sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+}
+
+.header a:hover,
+a:visited {
+    color: #E3B873;
+}
+
+
+/** main **/
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 710px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+img {
+    position: absolute;
+    margin: 0px;
+    z-index: -2;
+}
+
+.cover {
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    padding: 20px;
+    margin-right: 300px;
+}
+
+.cover.main__title_one {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.cover.main__title_two {
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.cover.main__botton {
+    display: flex;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.cover .cover__botton_one,
+.cover .cover__botton_two {
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 20px 40px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.cover .cover__botton_one:hover,
+.cover .cover__botton_two:hover {
+    background-color: #E3B873;
+}
+
+.cover .cover__botton_one a,
+.cover .cover__botton_two a {
+    text-decoration: none;
+    color: white;
+}
+
+.colorText {
+    color: #E3B873;
+}
